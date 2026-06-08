@@ -1,0 +1,4 @@
+# Pyrefly type-checker config.
+# pygame-ce is installed in the project virtualenv, so point Pyrefly at the
+# venv interpreter instead of the system (homebrew) Python it guesses by default.
+python-interpreter = ".venv/bin/python"
